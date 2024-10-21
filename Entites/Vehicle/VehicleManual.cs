@@ -5,7 +5,7 @@ namespace EstudiesDocker.Entites.Vehicle
     public class VehicleManual : Vehicle
     {
         public string ManualChange { get; init; } = default!;
-
+        public string simulacaoGit { get; init; } = default!;   
         public void Cancel()
         {
             if (Status == Status.Finish)
