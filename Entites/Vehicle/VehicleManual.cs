@@ -6,6 +6,12 @@ namespace EstudiesDocker.Entites.Vehicle
     {
         public string ManualChange { get; init; } = default!;
         public string simulacaoGit { get; init; } = default!;   
+        
+        public void teste()
+        {
+            Console.WriteLine("APENAS UM TESTE DE GIT");
+        }
+
         public void Cancel()
         {
             if (Status == Status.Finish)
